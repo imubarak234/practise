@@ -136,3 +136,14 @@ function scores(testscores){
 scores(50)
 
 console.log(Date.now())
+
+function show(rainyday){
+  let box = [];
+  for(let x = 0; x < rainyday; x++){
+    box.push(x);
+  }
+  return box
+}
+show(8)
+console.log(show("rainyday"))
+
